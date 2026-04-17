@@ -146,7 +146,11 @@ Lana needs to be able to schedule dog-walking appointments, record payments, kee
 - One appointment has one walk log (one-to-one)
 
 ## Reviewing AI Feedback and ERDs
+**Similarities:**
+Overall, each ERD was similar because they included all five entities, labeled ClientID and DogID as primary keys, and established relationships between the tables. They also all successfully established Clients to Dogs as a one-to-many relationship.
 
+**Differences:**
+There were some key differences across the ERDs, mainly in terms of how they formatted relationships in tables. For instance, Sha'Rya Weaver's diagram added a extra AppointmentStatus and PaymentStatus tables. On the other hand, Maia Blacks's ERD identified the Appointment to Dogs relationship as many-to-many, resolving this by adding a bridge table called Appointment_Dogs. Sharleen Guerrero's ERD did not go beyond the scope of the logical model created, but it did identify all relationships as one-to-many so no resolving table was necessary. Vesna Cari's ERD opted for a text format. 
 
 
   
