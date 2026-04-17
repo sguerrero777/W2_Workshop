@@ -2,7 +2,7 @@
 Group Members: Sha'Rya Weaver, Vesna Cari, Maia Black, Sharleen Guerrero
 
 ## Brainstorm
-**End User** Lana (the dog-walking business owner)
+**End User:** Lana (the dog-walking business owner)
 Lana needs to be able to schedule dog-walking appointments, record payments, keep track of clients and dogs, notes from walk sessions, and route preferences. 
 *Categories:* Clients, Dogs, Appointments/Schedule, Payments, Walk Logs, Location
 
@@ -99,6 +99,7 @@ Lana needs to be able to schedule dog-walking appointments, record payments, kee
 - ClientName
 - PhoneNumber
 - Email
+- StreetAddress
 - City
 - State
 - Zip Code
@@ -107,8 +108,8 @@ Lana needs to be able to schedule dog-walking appointments, record payments, kee
 - DogID (PK)
 - ClientID (FK to Clients)
 - DogName
+- Breed
 - DateOfBirth
-- DogTag
 - Notes
 
 **Appointments**
@@ -132,10 +133,8 @@ Lana needs to be able to schedule dog-walking appointments, record payments, kee
 - LogID (PK)
 - DogID (FK to Dogs)
 - ApppointmentID (FK to Appointments)
-- Date
+- WalkDate
 - DistanceMiles
-- City
-- WalkingRoute
 - Notes
 
 ## Relationships
