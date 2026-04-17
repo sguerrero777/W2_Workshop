@@ -42,3 +42,51 @@ Lana needs to be able to schedule dog-walking appointments, record payments, kee
 - City
 - Walking route
 - Distance
+
+# Logical Model
+
+## Entities and Attributes
+**Clients**
+- ClientID
+- ClientName
+- PhoneNumber
+- Email
+- Address
+
+**Dogs**
+- DogTag
+- DogName
+- Breed
+- Age
+- DogNotes
+- ClientName
+
+**Appointments**
+- AppointmentID
+- Date
+- Time
+- Duration
+- Availibility
+- Status
+
+**Payments**
+- PaymentID
+- PaymentDate
+- PaymentMethod
+- Price
+- Status
+
+**Walk Logs**
+- LogID
+- Date
+- Duration
+- Notes
+- DogTag
+
+## Relationships
+- One client can have one or more dogs.
+- Clients can have one or more appointments
+- Dogs can have more than one walk log or notes.
+
+## Many-to-Many Relationships
+- Clients and Appointments: Clients can have many appointments.
