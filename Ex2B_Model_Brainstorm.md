@@ -90,3 +90,65 @@ Lana needs to be able to schedule dog-walking appointments, record payments, kee
 
 ## Many-to-Many Relationships
 - Clients and Appointments: Clients can have many appointments.
+
+# AI Feedback Final Logical Model
+
+## Entities and Attributes
+**Clients**
+- ClientID (PK)
+- ClientName
+- PhoneNumber
+- Email
+- City
+- State
+- Zip Code
+
+**Dogs**
+- DogID (PK)
+- ClientID (FK to Clients)
+- DogName
+- DateOfBirth
+- DogTag
+- Notes
+
+**Appointments**
+- AppointmentID (PK)
+- ClientID (FK to Client)
+- DogID (FK to Dogs)
+- Date
+- Time
+- DurationMinutes
+- Status
+
+**Payments**
+- PaymentID (PK)
+- AppointmentID (FK to Appointments)
+- PaymentDate
+- PaymentMethod
+- Price
+- PaymentConfirmation
+
+**Walk Logs**
+- LogID (PK)
+- DogID (FK to Dogs)
+- ApppointmentID (FK to Appointments)
+- Date
+- DistanceMiles
+- City
+- WalkingRoute
+- Notes
+
+## Relationships
+- One client can have one or more dogs (one-to-many).
+- One client can have one or more appointments (one-to-many)
+- One dog can have one or more appointments (one-to-many)
+- One dog can have one or more walk logs (one-to-many)
+- One appointment has one payment (one-to-one)
+- One appointment has one walk log (one-to-one)
+
+## Reviewing AI Feedback and ERDs
+
+
+
+  
+
