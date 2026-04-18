@@ -9,7 +9,7 @@ a) Overall, our experience with using AI chat to help create sample data is that
 **How does your sample data look? What things can you start to determine about this 
 business, based on the sample records you’ve created?**
 
-b) Overall, our sample data looks organized and naming patterns for the dogs are consistent across all members' data samples. However, Shar'Rya and Vesna's data sample focused on a general service area, confining it to the same state while Maia and Sharleen's data sample created the service area across different states. This would be unrealsitic for a small dog-walking business, so the data would have to be changed to at minimum be in the same state. 
+b) Overall, our sample data looks organized and naming patterns for the dogs are consistent across all members' data samples. However, Shar'Rya and Vesna's data sample focused on a general service area, confining it to the same state while Maia and Sharleen's data sample created the service area across different states. This would be unrealistic for a small dog-walking business, so the data would have to be changed to at minimum be in the same state. 
 
 **Everyone in your small group started from the same brainstorming document. After 
 working independently on implementation, how different have your databases 
